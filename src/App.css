@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+/* api */
+
+/* https://api.spoonacular.com/recipes/complexSearch?query=pasta&maxFat=25&apiKey=d367ccf4b2a444b485f8d54829bda660&number=2 */
+
+.carousel-inner {
+  background: rgb(205, 71, 71);
+  height: 77vh;
+  top: 7%;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel-item h5{
+  color: aliceblue;
+  text-shadow: 2px 2px #6c6c6c;
+}
+.carousel-item p{
+  color: aliceblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top-headline {
+  margin-left: 40vw;
+  margin-top: 2vh;
+  padding-bottom: 1vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headings {
+  margin-top: 7vh;
+  background: rgb(205, 71, 71);
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4vh;
+  padding: 1vh 3vw;
+}
+
+.badge {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  border-radius: 2px;
+}
+
+.lists {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  overflow: scroll;
 }
 
-.App-link {
-  color: #61dafb;
+.list-item {
+  cursor: pointer;
+  margin: 0 1.5vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .search-item{
+    display: flex;
+    flex-direction: column;
+} */
